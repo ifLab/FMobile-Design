@@ -35,6 +35,25 @@ http://w.hihwei.com/api/
 
 > > answer_count 回答数量
 
+##用户登录
+
+> URL：login.php
+
+> HTTP请求方式：POST
+
+> 请求参数：user_name (string) password (string)
+
+> 返回结果：
+
+> > uid 用户编号
+
+> > email 用户邮箱
+
+> 错误原因：
+
+> > user_name error 用户名不存在
+
+> > password error 密码错误
 
 
 
