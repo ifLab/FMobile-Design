@@ -85,5 +85,21 @@ http://w.hihwei.com/api/
 
 > > Insert Failed 数据库插入失败（数据库问题）
 
+##职位列表
+
+> URL：job_list.php
+
+> HTTP请求方式：GET
+
+> 返回结果：
+
+> > id 职位编号
+
+> > job_name 职位名称
+
+> 可能返回的错误原因：
+
+> > Select Failed 数据库读取失败（数据库问题）
+
 
 
