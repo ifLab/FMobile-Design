@@ -63,5 +63,27 @@ http://w.hihwei.com/api/
 
 > > Invalid Parameters 参数无效
 
+##用户注册
+
+> URL：register.php
+
+> HTTP请求方式：POST
+
+> 请求参数：user_name (string) password (string) email (string)
+
+> 返回结果：
+
+> > uid 用户编号
+
+> 可能返回的错误原因：
+
+> > user_name already exists 用户名已存在
+
+> > email already exists 邮箱已存在
+
+> > Invalid Parameters 参数无效
+
+> > Insert Failed 数据库插入失败（数据库问题）
+
 
 
