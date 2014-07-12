@@ -35,6 +35,12 @@ http://w.hihwei.com/api/
 
 > > answer_count 回答数量
 
+> 可能返回的错误原因：
+
+> > User Does Not Exists 用户不存在
+
+> > Invalid Parameters 参数无效
+
 ##用户登录
 
 > URL：login.php
@@ -49,12 +55,13 @@ http://w.hihwei.com/api/
 
 > > email 用户邮箱
 
-> 错误原因：
+> 可能返回的错误原因：
 
 > > user_name error 用户名不存在
 
 > > password error 密码错误
 
+> > Invalid Parameters 参数无效
 
 
 
