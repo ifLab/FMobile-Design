@@ -121,5 +121,30 @@ http://w.hihwei.com/api/
 
 > > Invalid Parameters 参数无效
 
+##用户头像修改
+
+> URL：http://w.hihwei.com/?/account/api/avatar_upload/  （特殊API，不在通用API路径下，实际部署时会发生改变，建议在配置文件中单独设置）
+
+> HTTP请求方式：POST
+
+> 必填请求参数：uid(int)  user_avatar(图片文件域)
+
+> 返回结果：
+
+> > avatar_file 头像文件 (头像文件所在文件夹：http://w.hihwei.com/uploads/avatar/)
+
+> 可能返回的错误原因：
+
+> > user_name already exists 用户名已存在
+
+> > Invalid Parameters 参数无效
+
+> > Invalid Filetype 文件类型无效
+
+> > Invalid Filesize 文件尺寸过大
+
+> > Upload Failed 上传失败（服务器问题）
+
+
 
 
