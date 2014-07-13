@@ -101,5 +101,25 @@ http://w.hihwei.com/api/
 
 > > Select Failed 数据库读取失败（数据库问题）
 
+##个人资料修改
+
+> URL：profile_setting.php
+
+> HTTP请求方式：POST
+
+> 必填请求参数：uid(int) 
+
+> 选填请求参数：user_name (string) sex (tinyint，1：男  2：女  3：保密)  signature (string，个人签名[简介])  job_id(int) birthday(int，Unix 时间戳)
+
+> 返回结果：
+
+> > uid 用户编号
+
+> 可能返回的错误原因：
+
+> > user_name already exists 用户名已存在
+
+> > Invalid Parameters 参数无效
+
 
 
