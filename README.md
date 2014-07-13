@@ -5,7 +5,7 @@ API List:
 
 http://w.hihwei.com/api/
 
-
+补充说明：https://github.com/ifLab/FMobile-Design/blob/master/Supplement.md
 
 ##用户信息
 
