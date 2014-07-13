@@ -1,4 +1,4 @@
-#补充说明 By Hwei
+#补充说明
 
 ## Wecenter 图片说明
 
