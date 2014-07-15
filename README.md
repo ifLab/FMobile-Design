@@ -8,6 +8,7 @@ http://w.hihwei.com/api/
 补充说明：https://github.com/ifLab/FMobile-Design/blob/master/Supplement.md
 
 ##用户信息
+>改：1，头像给MAX 2，增加文章·威望·积分 
 
 > URL：user.php
 
