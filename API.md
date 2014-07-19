@@ -9,7 +9,9 @@ http://w.hihwei.com/?/
 
 > URL：api/account/register_process/
 
-> HTTP请求方式：POST
+> HTTP请求方式
+
+- POST
 
 > 请求参数：
 
@@ -38,7 +40,9 @@ http://w.hihwei.com/?/
 
 > URL：api/account/login_process/
 
-> HTTP请求方式：POST
+> HTTP请求方式
+
+- POST
 
 > 请求参数：
 
