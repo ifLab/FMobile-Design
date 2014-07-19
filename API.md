@@ -5,6 +5,9 @@ API List:
 
 http://w.hihwei.com/?/
 
+- 话题图片文件夹：http://w.hihwei.com/uploads/topic/
+- 头像图片文件夹：http://w.hihwei.com/uploads/avatar/
+
 ##说在前面
 > 接口总是会返回三个字段
 
