@@ -120,3 +120,26 @@ http://w.hihwei.com/?/
 
 - 话题列表
 
+##单个话题信息
+
+> URL：api/topic/topic/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (可以是topic的id或title)
+
+> 返回结果：
+
+- topic_info 话题信息
+
+> 可能返回的错误原因：
+
+- 话题不存在
