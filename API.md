@@ -99,3 +99,24 @@ http://w.hihwei.com/?/
 - 上传失败, 请与管理员联系
 - 。。。错误原因太多，没法一一解释，此处省略百万字（By Hwei）
 
+##话题广场
+
+> URL：api/topic/square/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (focus:我关注的话题,hot:热门话题,today:今日话题)
+- page (页码)
+
+> 返回结果：
+
+- 话题列表
+
