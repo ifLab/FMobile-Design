@@ -79,6 +79,9 @@ http://w.hihwei.com/?/
 > HTTP请求方式
 
 - POST
+
+> Header
+
 - COOKIE
 
 > 请求参数：
