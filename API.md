@@ -5,6 +5,19 @@ API List:
 
 http://w.hihwei.com/?/
 
+##说在前面
+> 接口总是会返回三个字段
+
+- rsm (成功时包含返回的数据，失败时此字段为null)
+- errno (1:成功 -1:失败)
+- err (成功时此字段为null，失败时此字段包含错误原因，可原样输出)
+
+![Image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/success.png)
+
+![Image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/error.png)
+
+
+
 ##用户注册
 
 > URL：api/account/register_process/
