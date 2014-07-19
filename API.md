@@ -116,7 +116,7 @@ http://w.hihwei.com/?/
 
 > 请求参数：
 
-- id (focus:我关注的话题,hot:热门话题,today:今日话题)
+- id (string) [可能的值：focus（我关注的话题）hot（热门话题）today（今日话题）]
 - page (页码)
 
 > 返回结果：
@@ -137,8 +137,7 @@ http://w.hihwei.com/?/
 
 > 请求参数：
 
-- id (可以是topic的id或title)
-
+- id (string) [可以是topic的id或title]
 > 返回结果：
 
 - topic_info 话题信息
