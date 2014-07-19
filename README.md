@@ -1,6 +1,10 @@
 FMobile-Design
 ==============
 
+##安全,稳定,防火防盗的新接口文档
+
+https://github.com/ifLab/FMobile-Design/blob/master/API.md
+
 API List:
 
 http://w.hihwei.com/api/
