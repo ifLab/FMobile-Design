@@ -145,3 +145,28 @@ http://w.hihwei.com/?/
 > 可能返回的错误原因：
 
 - 话题不存在
+
+#单个问题信息
+
+> URL：api/question/question/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [question的id]
+> 返回结果：
+
+- question 问题信息 [包括问题信息，回答数目，回答内容，发起人等信息]
+
+> 可能返回的错误原因：
+
+- 错误请求,缺少问题id
+
+- 问题不存在或已被删除
