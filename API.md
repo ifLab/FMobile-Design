@@ -161,6 +161,9 @@ http://w.hihwei.com/?/
 > 请求参数：
 
 - id (string) [question的id]
+
+- page (int) [回答分页页码]
+
 > 返回结果：
 
 - question 问题信息 [包括问题信息，回答数目，回答内容，发起人等信息]
@@ -170,3 +173,31 @@ http://w.hihwei.com/?/
 - 错误请求,缺少问题id
 
 - 问题不存在或已被删除
+
+#单篇文章信息
+
+> URL：api/article/article/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [article的id]
+
+- page (int) [评论分页页码]
+
+> 返回结果：
+
+- article 文章信息 [包括文章信息，评论数目，评论内容，作者等信息]
+
+> 可能返回的错误原因：
+
+- 错误请求,缺少问题id
+
+- 文章不存在或已被删除
