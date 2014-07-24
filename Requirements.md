@@ -20,84 +20,6 @@
 
 ### 未实现过非安全、稳定、防火防盗版本，需要实现的接口
 
-#### 获取我的提问列表
-
-> [In] Int(UID)
-
-> [In] Int(页数)
-
-> [Out] Array(
-
-> > Int(问题ID)
-
-> > String(问题标题)
-
-> > String(问题预览)
-
-> > Date(提问时间)
-
-> )
-
-#### 获取我的回复列表
-
-> [In] Int(UID)
-
-> [In] Int(页数)
-
-> [Out] Array(
-
-> > Int(问题ID)
-
-> > String(问题标题)
-
-> > String(回复用户头像URI)
-
-> > Int(回复ID)
-
-> > String(回复预览)
-
-> > Int(回复赞同数)
-
-> )
-
-#### 获取我的文章列表
-
-> [In] Int(UID)
-
-> [In] Int(页数)
-
-> [Out] Array(
-
-> > Int(文章ID)
-
-> > String(文章标题)
-
-> > String(文章预览)
-
-> > Date(发表日期)
-
-> )
-
-#### 获取我的关注问题列表
-
-> [In] Int(UID)
-
-> [In] Int(页数)
-
-> [Out] Array(
-
-> > Int(问题ID)
-
-> > String(问题标题)
-
-> > Date(提问时间)
-
-> > Int(关注人数)
-
-> > Int(答案数)
-
-> )
-
 #### 发现列表
 
 > [In] Int(页数)
@@ -274,6 +196,86 @@
 > > 点赞该评论的功能
 
 > > 回复该评论的功能
+
+
+#### 获取我的提问列表
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(问题ID)
+
+> > String(问题标题)
+
+> > String(问题预览)
+
+> > Date(提问时间)
+
+> )
+
+#### 获取我的回复列表
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(问题ID)
+
+> > String(问题标题)
+
+> > String(回复用户头像URI)
+
+> > Int(回复ID)
+
+> > String(回复预览)
+
+> > Int(回复赞同数)
+
+> )
+
+#### 获取我的文章列表
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(文章ID)
+
+> > String(文章标题)
+
+> > String(文章预览)
+
+> > Date(发表日期)
+
+> )
+
+#### 获取我的关注问题列表
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(问题ID)
+
+> > String(问题标题)
+
+> > Date(提问时间)
+
+> > Int(关注人数)
+
+> > Int(答案数)
+
+> )
+
 
 #### 我的动态列表
 
