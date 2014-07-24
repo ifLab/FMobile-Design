@@ -233,3 +233,33 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 > 可能返回的错误原因：
 
 - 参数不完整
+
+##获取我的提问列表
+
+> URL：my_question.php （http://w.hihwei.com/api/my_question.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(问题ID)
+
+> > String(问题标题)
+
+> > String(问题预览)
+
+> > Date(提问时间)
+
+> )
+
+> 可能返回的错误原因：
+
+- 参数不完整
