@@ -325,8 +325,11 @@
 
 #### 我关注的用户列表
 > [Out] String(用户头像URI)
+
 > [Out] String(用户名)
+
 > [Out] String(签名singnature)
+
 > edit by huangchen
 
 
