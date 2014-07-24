@@ -324,8 +324,12 @@
 
 
 #### 我关注的用户列表
+> [Out] String(用户头像URI)
+> [Out] String(用户名)
+> [Out] String(签名singnature)
+> edit by huangchen
 
->
+
 ### 实现过非安全、稳定、防火防盗版本，需要升级的接口
 
 #### 用获取户信息
