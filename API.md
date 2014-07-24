@@ -3,7 +3,9 @@
 
 API List:
 
-http://w.hihwei.com/?/
+http://w.hihwei.com/?/ （默认）
+
+http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 话题图片文件夹：http://w.hihwei.com/uploads/topic/
 - 头像图片文件夹：http://w.hihwei.com/uploads/avatar/
@@ -201,3 +203,33 @@ http://w.hihwei.com/?/
 - 错误请求,缺少问题id
 
 - 文章不存在或已被删除
+
+#### 获取我的文章列表
+
+> URL：my_article.php （http://w.hihwei.com/api/my_article.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(文章ID)
+
+> > String(文章标题)
+
+> > String(文章预览)
+
+> > Date(发表日期)
+
+> )
+
+> 可能返回的错误原因：
+
+- 参数不完整
