@@ -148,7 +148,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 话题不存在
 
-#单个问题信息
+##单个问题信息
 
 > URL：api/question/question/
 
@@ -176,7 +176,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 问题不存在或已被删除
 
-#单篇文章信息
+##单篇文章信息
 
 > URL：api/article/article/
 
@@ -204,7 +204,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 文章不存在或已被删除
 
-#### 获取我的文章列表
+##获取我的文章列表
 
 > URL：my_article.php （http://w.hihwei.com/api/my_article.php）
 
