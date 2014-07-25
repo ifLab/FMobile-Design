@@ -292,3 +292,32 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 > )
 
+## 获取我的回复列表
+
+> URL：my_answer.php （http://w.hihwei.com/api/my_answer.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(问题ID)
+
+> > String(问题标题)
+
+> > String(回复用户头像URI)
+
+> > Int(回复ID)
+
+> > String(回复预览)
+
+> > Int(回复赞同数)
+
+> )
