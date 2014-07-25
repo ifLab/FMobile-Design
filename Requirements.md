@@ -341,8 +341,6 @@
 
 #### 用获取户信息
 
-用于获取并展示个人主页信息
-
 > [In] Int(UID)
 
 > [Out] String(用户头像URI)
@@ -363,9 +361,22 @@
 
 > [Out] Int(答案被分享次数)
 
-#### 修改用户信息
+用于展示用户信息
 
-用于用户展示信息修改
+> [In] Cookie
+
+> [Out] String(用户名)
+
+> [Out] Int(性别ID)
+
+> [Out] String(个人简介)
+
+> [Out] Int(行业ID)
+
+> [Out] Date(生日)
+
+用于修改用户信息
+
 
 > [In] Int(UID)
 
