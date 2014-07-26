@@ -107,3 +107,49 @@
 > [Out] Int(感谢我的次数)
 
 > [Out] Int(答案被收藏次数)
+
+##用于展示用户信息  
+
+> URL：userinfo.php （http://w.hihwei.com/api/userinfo.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [Out] String(用户名)
+
+> [Out] Int(性别ID)
+
+> [Out] String(个人简介)
+
+> [Out] Int(行业ID)
+
+> [Out] Date(生日)
+
+##用于修改用户信息
+
+> URL：userinfo_edit.php （http://w.hihwei.com/api/userinfo_edit.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] String(用户名)
+
+> [In] Int(性别ID)
+
+> [In] String(个人简介)
+
+> [In] Int(行业ID)
+
+> [In] Date(生日)
+
+> [Out] Bool(成功／失败)
