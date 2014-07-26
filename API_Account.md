@@ -110,7 +110,7 @@
 
 ##用于展示用户信息  
 
-> URL：userinfo.php （http://w.hihwei.com/api/userinfo.php）
+> URL：profile.php （http://w.hihwei.com/api/profile.php）
 
 > HTTP请求方式
 
@@ -132,7 +132,7 @@
 
 ##用于修改用户信息
 
-> URL：userinfo_edit.php （http://w.hihwei.com/api/userinfo_edit.php）
+> URL：profile_setting.php （http://w.hihwei.com/api/profile_setting.php）
 
 > HTTP请求方式
 
@@ -142,14 +142,14 @@
 
 > [In] Int(UID)
 
-> [In] String(用户名)
+> [In] String(用户名)   user_name
 
-> [In] Int(性别ID)
+> [In] Int(性别ID)  sex (tinyint，1：男  2：女  3：保密)    
 
-> [In] String(个人简介)
+> [In] String(个人简介)  signature (string，个人签名[简介])
 
-> [In] Int(行业ID)
+> [In] Int(行业ID) job_id(int) 
 
-> [In] Date(生日)
+> [In] Date(生日)  birthday(int，Unix 时间戳)
 
 > [Out] Bool(成功／失败)
