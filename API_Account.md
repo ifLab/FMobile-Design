@@ -152,4 +152,4 @@
 
 > [In] Date(生日)  birthday(int，Unix 时间戳)
 
-> [Out] Bool(成功／失败)
+> 如果成功，errno为1，不多解释，因“说在前面”有解释
