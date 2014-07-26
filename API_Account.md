@@ -130,7 +130,7 @@
 
 > [Out] Date(生日)
 
-##用于修改用户信息
+##用于修改用户信息  （除uid和user_name外，其他为可选）
 
 > URL：profile_setting.php （http://w.hihwei.com/api/profile_setting.php）
 
@@ -140,9 +140,9 @@
 
 > 请求参数：
 
-> [In] Int(UID)
+> [In] Int(UID)  uid (必须)
 
-> [In] String(用户名)   user_name
+> [In] String(用户名)   user_name （必须）
 
 > [In] Int(性别ID)  sex (tinyint，1：男  2：女  3：保密)    
 
