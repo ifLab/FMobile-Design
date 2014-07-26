@@ -27,106 +27,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 （一个文件有点乱有点大，故，愉快的分居了）
 
-##话题广场 (可能待修改)
 
-> URL：api/topic/square/
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- id (string) [可能的值：focus（我关注的话题）hot（热门话题）today（今日话题）]
-- page (页码)
-
-> 返回结果：
-
-- 话题列表
-
-##单个话题信息 (可能待修改)
-
-> URL：api/topic/topic/
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- id (string) [可以是topic的id或title]
-> 返回结果：
-
-- topic_info 话题信息
-
-> 可能返回的错误原因：
-
-- 话题不存在
-
-##单个问题信息 (待修改)
-
-> URL：api/question/question/
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- id (string) [question的id]
-
-- page (int) [回答分页页码]
-
-> 返回结果：
-
-- question 问题信息 [包括问题信息，回答数目，回答内容，发起人等信息]
-
-> 可能返回的错误原因：
-
-- 错误请求,缺少问题id
-
-- 问题不存在或已被删除
-
-##单篇文章信息 (待修改)
-
-> URL：api/article/article/
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- id (string) [article的id]
-
-- page (int) [评论分页页码]
-
-> 返回结果：
-
-- article 文章信息 [包括文章信息，评论数目，评论内容，作者等信息]
-
-> 可能返回的错误原因：
-
-- 错误请求,缺少问题id
-
-- 文章不存在或已被删除
- 
 #以下列表接口一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
 
 ##获取我的文章列表
@@ -306,4 +207,107 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 > > String(职业名称)
 
 > )
+
+#有家伙说以下接口返回字段太多，如果你们用着习惯就不该了，如果不习惯那我再做修改
+
+##话题广场 (可能待修改)
+
+> URL：api/topic/square/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [可能的值：focus（我关注的话题）hot（热门话题）today（今日话题）]
+- page (页码)
+
+> 返回结果：
+
+- 话题列表
+
+##单个话题信息 (可能待修改)
+
+> URL：api/topic/topic/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [可以是topic的id或title]
+> 返回结果：
+
+- topic_info 话题信息
+
+> 可能返回的错误原因：
+
+- 话题不存在
+
+##单个问题信息 (待修改)
+
+> URL：api/question/question/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [question的id]
+
+- page (int) [回答分页页码]
+
+> 返回结果：
+
+- question 问题信息 [包括问题信息，回答数目，回答内容，发起人等信息]
+
+> 可能返回的错误原因：
+
+- 错误请求,缺少问题id
+
+- 问题不存在或已被删除
+
+##单篇文章信息 (待修改)
+
+> URL：api/article/article/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [article的id]
+
+- page (int) [评论分页页码]
+
+> 返回结果：
+
+- article 文章信息 [包括文章信息，评论数目，评论内容，作者等信息]
+
+> 可能返回的错误原因：
+
+- 错误请求,缺少问题id
+
+- 文章不存在或已被删除
+ 
 
