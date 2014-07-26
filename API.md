@@ -104,7 +104,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 - 上传失败, 请与管理员联系
 - 。。。错误原因太多，没法一一解释，此处省略百万字（By Hwei）
 
-##话题广场
+##话题广场 (可能待修改)
 
 > URL：api/topic/square/
 
@@ -125,7 +125,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 话题列表
 
-##单个话题信息
+##单个话题信息 (可能待修改)
 
 > URL：api/topic/topic/
 
@@ -148,7 +148,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 话题不存在
 
-##单个问题信息
+##单个问题信息 (待修改)
 
 > URL：api/question/question/
 
@@ -176,7 +176,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 问题不存在或已被删除
 
-##单篇文章信息
+##单篇文章信息 (待修改)
 
 > URL：api/article/article/
 
@@ -203,6 +203,8 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 - 错误请求,缺少问题id
 
 - 文章不存在或已被删除
+ 
+#以下列表一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
 
 ##获取我的文章列表
 
@@ -381,3 +383,31 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 > > String(职业名称)
 
 > )
+
+## 获取用户信息
+
+> URL：user.php （http://w.hihwei.com/api/user.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [Out] String(用户头像URI)
+
+> [Out] String(用户名)
+
+> [Out] Int(我的话题数)
+
+> [Out] Int(我关注的人数)
+
+> [Out] Int(关注我的人数)
+
+> [Out] Int(赞同我的次数)
+
+> [Out] Int(感谢我的次数)
+
+> [Out] Int(答案被收藏次数)
