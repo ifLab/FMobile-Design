@@ -208,9 +208,9 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 > )
 
-#有家伙说以下接口返回字段太多，如果你们用着习惯就不该了，如果不习惯那我再做修改
+#有家伙说以下接口返回字段太多，如果你们用着习惯就这样了，如果不习惯那我再做修改
 
-##话题广场 (可能待修改)
+##话题广场
 
 > URL：api/topic/square/
 
@@ -231,7 +231,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 - 话题列表
 
-##单个话题信息 (可能待修改)
+##单个话题信息
 
 > URL：api/topic/topic/
 
@@ -254,7 +254,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 - 话题不存在
 
-##单个问题信息 (待修改)
+##单个问题信息
 
 > URL：api/question/question/
 
@@ -282,7 +282,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 - 问题不存在或已被删除
 
-##单篇文章信息 (待修改)
+##单篇文章信息
 
 > URL：api/article/article/
 
