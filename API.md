@@ -25,7 +25,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 ##用户账号相关接口
 
 https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
-（一个文件有点乱有点大，故，愉快的分家了）
+（一个文件有点乱有点大，故，愉快的分居了）
 
 ##话题广场 (可能待修改)
 
