@@ -321,3 +321,41 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 > > Int(回复赞同数)
 
 > )
+
+## 我关注的用户列表
+
+> URL：my_focus_user.php （http://w.hihwei.com/api/my_focus_user.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] String(用户头像URI)
+
+> [Out] String(用户名)
+
+> [Out] String(签名singnature)
+
+> edit by huangchen
+
+## 关注我的用户列表
+
+> URL：my_fans_user.php （http://w.hihwei.com/api/my_fans_user.php.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> 与我关注的用户列表字段相同 
