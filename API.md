@@ -208,6 +208,28 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 > )
 
+
+## 我关注的话题列表
+
+> URL：my_focus_topic.php （http://w.hihwei.com/api/my_focus_topic.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [In] Int(页数)
+
+> [Out] String(图片url) （话题图片路径：http://w.hihwei.com/uploads/topic/）
+
+> [Out] String(标题)
+
+> [Out] String(描述)
+
+
 #有家伙说以下接口返回字段太多，如果你们用着习惯就这样了，如果不习惯那我再做修改
 
 ##话题广场
