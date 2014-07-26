@@ -1,3 +1,5 @@
+#用户相关接口
+
 ##用户注册
 
 > URL：api/account/register_process/
@@ -53,7 +55,6 @@
 
 ##用户头像修改
 
-
 > URL：api/account/avatar_upload/
 
 > HTTP请求方式
@@ -78,3 +79,31 @@
 - 文件尺寸过大
 - 上传失败, 请与管理员联系
 - 。。。错误原因太多，没法一一解释，此处省略百万字（By Hwei）
+
+## 获取用户信息
+
+> URL：user.php （http://w.hihwei.com/api/user.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(UID)
+
+> [Out] String(用户头像URI)
+
+> [Out] String(用户名)
+
+> [Out] Int(我的话题数)
+
+> [Out] Int(我关注的人数)
+
+> [Out] Int(关注我的人数)
+
+> [Out] Int(赞同我的次数)
+
+> [Out] Int(感谢我的次数)
+
+> [Out] Int(答案被收藏次数)
