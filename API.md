@@ -22,87 +22,10 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 ![Image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/error.png)
 
 
+##用户账号相关接口
 
-##用户注册
-
-> URL：api/account/register_process/
-
-> HTTP请求方式
-
-- POST
-
-> 请求参数：
-
-- user_name (string)
-- password (string) 
-- email (string)
-
-> 返回结果：
-
-- uid 用户编号
-
-> 可能返回的错误原因：
-
-- 本站目前关闭注册
-- 本站只能通过邀请注册
-- 本站只能通过微信注册
-- 请输入用户名
-- 用户名已经存在
-- 用户名包含无效字符
-- 用户名中包含敏感词或系统保留字
-- E-Mail 已经被使用, 或格式不正确
-- 密码长度不符合规则
-
-##用户登录
-
-
-> URL：api/account/login_process/
-
-> HTTP请求方式
-
-- POST
-
-> 请求参数：
-
-- user_name (string) [可以是用户名也可以是邮箱]
-- password (string) 
-
-> 返回结果：
-
-- uid 用户编号
-
-> 可能返回的错误原因：
-
-- 请输入正确的帐号或密码
-- 抱歉, 你的账号已经被禁止登录
-
-##用户头像修改
-
-
-> URL：api/account/avatar_upload/
-
-> HTTP请求方式
-
-- POST
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- user_avatar (图片文件域) 
-
-> 返回结果：
-
-- preview 头像地址
-
-> 可能返回的错误原因：
-
-- 文件类型无效
-- 文件尺寸过大
-- 上传失败, 请与管理员联系
-- 。。。错误原因太多，没法一一解释，此处省略百万字（By Hwei）
+https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
+（一个文件有点乱有点大，故，愉快的分家了）
 
 ##话题广场 (可能待修改)
 
@@ -204,7 +127,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 - 文章不存在或已被删除
  
-#以下列表一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
+#以下列表接口一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
 
 ##获取我的文章列表
 
@@ -384,30 +307,3 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 > )
 
-## 获取用户信息
-
-> URL：user.php （http://w.hihwei.com/api/user.php）
-
-> HTTP请求方式
-
-- GET
-
-> 请求参数：
-
-> [In] Int(UID)
-
-> [Out] String(用户头像URI)
-
-> [Out] String(用户名)
-
-> [Out] Int(我的话题数)
-
-> [Out] Int(我关注的人数)
-
-> [Out] Int(关注我的人数)
-
-> [Out] Int(赞同我的次数)
-
-> [Out] Int(感谢我的次数)
-
-> [Out] Int(答案被收藏次数)
