@@ -346,7 +346,7 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 
 ## 关注我的用户列表
 
-> URL：my_fans_user.php （http://w.hihwei.com/api/my_fans_user.php.php）
+> URL：my_fans_user.php （http://w.hihwei.com/api/my_fans_user.php）
 
 > HTTP请求方式
 
@@ -359,3 +359,25 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 > [In] Int(页数)
 
 > 与我关注的用户列表字段相同 
+
+## 获取职位列表
+
+用于展示／修改个人从属行业等信息  （默认全部返回，可以加per_page和page参数）
+
+> URL：job_list.php （http://w.hihwei.com/api/job_list.php）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(页数)
+
+> [Out] Array(
+
+> > Int(职业ID)
+
+> > String(职业名称)
+
+> )
