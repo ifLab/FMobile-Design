@@ -279,3 +279,8 @@
 
 > [Out] String(回复预览)
 
+#### 话题取消关注操作
+
+> [In] String(uid)
+
+> [In] String(topic_id)
