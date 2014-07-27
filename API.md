@@ -269,6 +269,8 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Publish.md
 
 > [In] Int topic_id （必须）
 
+> [In] String type （选，如果是取消关注，此值设为 'cancel' ）
+
 > 如果成功，errno为1，不多解释，因“说在前面”有解释
 
 #有家伙说以下接口返回字段太多，如果你们用着习惯就这样了，如果不习惯那我再做修改
