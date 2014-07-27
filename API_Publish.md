@@ -48,7 +48,7 @@
 
 > 请求参数：
 
-- question_content (问题标题，note:不是内容，人家就这样设计的，别怨我)
+- question_content (问题标题，note:不是内容，人家就这样设计的，别怨写接口的人，其实他也不能理解)
 
 - question_detail (问题详情，即正文内容)
 
