@@ -14,11 +14,13 @@
 
 - id (string) [附件类型，可能的值：questions,article,answer(默认)]
 
+- attach_access_key (string) (任意32位字符串，为了避免与历史的重复，建议 md5( time().rand(1,99) ) 这样生成)
+
 - qqfile (文件域名称)
 
 > 返回结果：
 
-- access_key （待会点发布的时候，这个也要提交的）
+- attach_access_key （这是你给我的，现在还给你，待会点发布的时候，这个也要提交的）
 
 - attach_id （这个是供插入在正文里的，如：[attach]9[/attach] ）
 
