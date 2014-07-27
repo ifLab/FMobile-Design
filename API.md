@@ -27,6 +27,10 @@ http://w.hihwei.com/api/ （如果是这个会有说明）
 https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 （一个文件有点乱有点大，故，愉快的分居了）
 
+##发布相关接口
+
+https://github.com/ifLab/FMobile-Design/blob/master/API_Publish.md
+
 
 #以下列表接口一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
 
