@@ -14,7 +14,7 @@
 
 - id (string) [附件类型，可能的值：questions,article,answer(默认)]
 
-- attach_access_key (string) (任意32位字符串，为了避免与历史的重复，建议 md5( time().rand(1,99) ) 这样生成)
+- attach_access_key (string) (任意32位字符串，为了避免与历史的重复，建议 md5( time().rand(1,99) ) 这样生成, 发布一个问题时有多个附件，上传每个附件时这个值必须保持一致)
 
 - qqfile (文件域名称)
 
