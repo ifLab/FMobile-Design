@@ -255,7 +255,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Publish.md
 
 > [Out] Int(当前用户是否已关注，关注：1  未关注：0)
 
-## 关注某个话题操作
+## 关注或取消关注某个话题操作
 
 > URL：focus_topic.php （http://w.hihwei.com/api/focus_topic.php）
 
