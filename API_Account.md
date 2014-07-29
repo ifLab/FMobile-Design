@@ -157,3 +157,23 @@
 > [In] Date(生日)  birthday(int，Unix 时间戳)
 
 > 如果成功，errno为1，不多解释，因“说在前面”有解释
+
+##获取用户uid
+
+> URL：api/account/get_uid/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 返回结果：
+
+- uid
+
+> 可能返回的错误原因：
+
+- 禁止访问
