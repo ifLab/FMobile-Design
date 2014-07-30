@@ -23,3 +23,11 @@ http://w.hihwei.com/?/
 - 这个请直接看 http://w.hihwei.com/?/api/explore/ 这个页面（装个jsonview一目了然）
 
 - NOTE：特别提醒下，这个接口返回的total_rows是当前页的信息总条数，那，你如何知道信息全部加载完了呢，从第一页开始，当你加载第n页的时候，发现它返回的total_rows是0。恭喜你，已全部加载完成！
+
+- 再解释下：
+
+- - answer_users 贡献者信息
+- - answer 此问题的最后一个回答信息（包括回答者） 如果问题现在0回复，那就没有
+- - topics 问题关联的话题
+- - user_info 提问者信息
+- - update_time 最后更新时间  即最后一个回答发布时间
