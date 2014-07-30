@@ -22,6 +22,8 @@
 
 #### 问题详细
 
+> [In] Int(问题ID)
+
 > [Out] String(问题标题)
 
 > [Out] String(问题正文)
@@ -30,16 +32,24 @@
 
 > [Out] 回答列表(
 
-> >  Int(ID)
+> > Int(ID)
  
-> >  Int(用户ID)
+> > Int(用户ID)
 
-> >  String(用户姓名)
+> > String(用户姓名)
 
-> >  Int(赞同的人数)
+> > Int(赞同的人数)
 
-> >  String(回答预览)
+> > String(回答预览)
  
+> )
+
+> [Out] Tag列表(
+
+> > Int(ID)
+
+> > Int(名称)
+
 > )
 
 #### 添加回答 （已完成）
