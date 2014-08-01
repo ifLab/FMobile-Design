@@ -278,8 +278,6 @@
 
 > [Out] String(回答详情)
 
-> [Out] String(回答者url)
-
 > [Out] Int(评论的个数)
 
 > [Out] 是否已感谢
