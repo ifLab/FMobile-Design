@@ -498,7 +498,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - item_id (comment的id)
 
-- rating  ( 有三种值，1（赞）0（取消赞） )
+- rating  ( 有两种值，1（赞）0（取消赞） )
 
 
 ## 文章点赞,踩，及取消操作
