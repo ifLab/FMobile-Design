@@ -253,3 +253,13 @@
 > [In] String(uid)
 
 > [In] String(topic_id)
+
+#### 热门话题列表，与我关注的话题列表返回字段相同
+
+> [Out] String(图片url)
+
+> [Out] String(标题)
+
+> [Out] String(描述)
+
+> edit by huangchen
