@@ -277,7 +277,52 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > 如果成功，errno为1，不多解释，因“说在前面”有解释
 
-#有家伙说以下接口返回字段太多，如果你们用着习惯就这样了，如果不习惯那我再做修改
+
+##问题详情
+
+> URL：api/question/question/   （  view-source:http://w.hihwei.com/?/api/question/question/2  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] Int(问题ID)
+
+> [Out] String(问题标题)
+
+> [Out] String(问题正文)
+
+> [Out] Int(问题关注数)
+
+> [Out] 回答列表(
+
+> > Int(ID)
+ 
+> > Int(用户ID)
+
+> > String(用户姓名)
+
+> > Int(赞同的人数)
+
+> > String(回答预览)
+ 
+> )
+
+> [Out] Tag列表(
+
+> > Int(ID)
+
+> > Int(名称)
+
+> )
+
+############################################################
+
+
+
+
 
 ##话题广场
 
@@ -300,7 +345,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - 话题列表
 
-##单个话题信息
+##单个话题信息 （待修改）
 
 > URL：api/topic/topic/
 
@@ -323,35 +368,8 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - 话题不存在
 
-##单个问题信息
 
-> URL：api/question/question/
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-- id (string) [question的id]
-
-- page (int) [回答分页页码]
-
-> 返回结果：
-
-- question 问题信息 [包括问题信息，回答数目，回答内容，发起人等信息]
-
-> 可能返回的错误原因：
-
-- 错误请求,缺少问题id
-
-- 问题不存在或已被删除
-
-##单篇文章信息
+##单篇文章信息（待修改）
 
 > URL：api/article/article/
 
