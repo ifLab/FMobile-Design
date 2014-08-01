@@ -263,3 +263,25 @@
 > [Out] String(描述)
 
 > edit by huangchen
+
+#### 精华详情，点击精华列表的item进入的界面
+
+> [Out] String(问题)
+
+> [Out] String(回答者url)
+
+> [Out] String(回答者姓名)
+
+> [Out] String(回答者一句话介绍)
+
+> [Out] String(该回答赞的人数)
+
+> [Out] String(回答详情)
+
+> [Out] String(回答者url)
+
+> [Out] Int(评论的个数)
+
+> [Out] 是否已感谢
+
+> edit by huangchen
