@@ -339,6 +339,28 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > [out] 用户一句话签名
 
 
+#### 回答的详细
+
+> URL：answer_detail.php   （  DEMO: http://w.hihwei.com/api/answer_detail.php?id=4  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] id 回答编号
+
+> [Out] Int(用户ID)
+
+> [Out] Int(赞同数)
+
+> [Out] String(正文)
+
+> [Out] Int(评论数)
+
+> [Out] Date(日期) 
+
 ############################################################
 
 
