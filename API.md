@@ -410,6 +410,43 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > )
 
+## 文章的评论列表
+
+> URL： api/article/comment/  （  DEMO: http://w.hihwei.com/?/api/article/comment/?id=2  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数 
+
+- id (文章ID)
+
+- page (分页页码)
+
+>  [out] 评论(
+
+> > 评论的id
+
+> > 评论用户的用户名
+
+> > 评论用户的用户id
+
+> > 评论用户的头像
+
+> > 发布的时间
+
+> > 点赞人数
+
+> > 评论＠的人信息（如果有则有）
+
+> )
+
+> 图释：
+
+![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_comment.png)
+
+
 ## 文章点赞,踩，及取消操作
 
 > URL： article/ajax/article_vote/  （http://w.hihwei.com/?/article/ajax/article_vote/）
