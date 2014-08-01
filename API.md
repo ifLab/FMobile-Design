@@ -387,6 +387,50 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 ![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_user.png)
 
+
+## 文章的详细 
+
+> URL： api/article/article/  （  DEMO: http://w.hihwei.com/?/api/article/article/?id=2  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数 
+
+> [in] int(文章的id)
+
+> [out] 文章的信息(
+
+> > 文章的标题及详细信息
+
+> > 点赞的人数
+
+> > 相关的话题
+
+> )
+
+## 文章点赞,踩，及取消操作
+
+> URL： article/ajax/article_vote/  （http://w.hihwei.com/?/article/ajax/article_vote/）
+
+> HTTP请求方式
+
+- POST
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- type ( 对文章操作，参数值是: article )
+
+- item_id (article的id)
+
+- rating  ( 有三种值，1：赞 -1：踩  0：取消赞或者取消踩 )
+
+
 ############################################################
 
 
