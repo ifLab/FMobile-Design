@@ -428,8 +428,43 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - item_id (article的id)
 
-- rating  ( 有三种值，1：赞 -1：踩  0：取消赞或者取消踩 )
+- rating  ( 有三种值，1（赞） -1（踩）  0（取消赞或者取消踩） )
 
+## 话题关注，取消关注操作
+
+> URL： topic/ajax/focus_topic/  （DEMO：http://w.hihwei.com/?/topic/ajax/focus_topic/?topic_id=17）
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- topic_id (话题ID)
+
+- NOTE：不需要传其他参数，如果当前用户已经关注该话题，会取消关注，反之则关注
+
+## 用户关注，取消关注操作
+
+> URL：follow/ajax/follow_people/  （DEMO：http://w.hihwei.com/?/follow/ajax/follow_people/?uid=5）
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- uid (用户ID)
+
+- NOTE：不需要传其他参数，如果当前用户已经关注该用户，会取消关注，反之则关注
 
 ############################################################
 
