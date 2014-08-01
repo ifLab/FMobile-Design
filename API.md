@@ -318,7 +318,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > )
 
-#### 关注该问题的用户列表
+## 关注该问题的用户列表
 
 > URL：question_fans_user.php   （  DEMO: http://w.hihwei.com/api/question_fans_user.php?id=2  ）
 
@@ -339,7 +339,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > [out] 用户一句话签名
 
 
-#### 回答的详细
+## 回答的详细
 
 > URL：answer_detail.php   （  DEMO: http://w.hihwei.com/api/answer_detail.php?id=4  ）
 
@@ -360,6 +360,30 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > [Out] Int(评论数)
 
 > [Out] Date(日期) 
+
+## 回答的评论列表
+
+> URL：answer_comment.php  （  DEMO: http://w.hihwei.com/api/answer_comment.php?id=4  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] id 回答编号
+
+> [Out] Int(评论人ID)
+
+> [Out] String(评论人姓名)
+
+> [Out] String(评论正文)
+
+> [Out] Date(日期)
+
+> [Out] Array at_user (被@用户信息，如果有则会返回这个信息)   
+
+> 图释：![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_user.png)
 
 ############################################################
 
