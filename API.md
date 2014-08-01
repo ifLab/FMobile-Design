@@ -383,11 +383,11 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [Out] Array at_user (被@用户信息，如果有则会返回这个信息)   
 
-> 图释：![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_user.png)
+> 图释：
+
+![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_user.png)
 
 ############################################################
-
-
 
 
 
