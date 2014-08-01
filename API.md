@@ -280,7 +280,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 ##问题详情
 
-> URL：api/question/question/   （  view-source:http://w.hihwei.com/?/api/question/question/2  ）
+> URL：api/question/question/   （  DEMO: view-source:http://w.hihwei.com/?/api/question/question/?id=2  ）
 
 > HTTP请求方式
 
@@ -317,6 +317,27 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > > Int(名称)
 
 > )
+
+#### 关注该问题的用户列表
+
+> URL：question_fans_user.php   （  DEMO: http://w.hihwei.com/api/question_fans_user.php?id=2  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [in] id 问题编号
+
+> [out] 用户id
+
+> [out] 用户名
+
+> [out] 用户头像
+
+> [out] 用户一句话签名
+
 
 ############################################################
 
