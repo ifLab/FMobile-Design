@@ -557,11 +557,7 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - NOTE：不需要传其他参数，如果当前用户已经关注该用户，会取消关注，反之则关注
 
-############################################################
-
-
-
-##话题广场 （待修改）
+##话题广场 （我关注的话题列表，热门话题列表，今日话题列表）
 
 > URL：api/topic/square/
 
@@ -581,6 +577,10 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > 返回结果：
 
 - 话题列表
+
+############################################################
+
+
 
 ##单个话题信息 （待修改）
 
