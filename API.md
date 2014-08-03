@@ -578,6 +578,50 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 - 话题列表
 
+## 问题关注，取消关注操作
+
+> URL： question/ajax/focus/  （DEMO：http://w.hihwei.com/?/question/ajax/focus/?question_id=45）
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- question_id (问题ID)
+
+- NOTE：不需要传其他参数，如果当前用户已经关注该问题，会取消关注，反之则关注
+
+## 精华列表 
+
+> URL： api/topic/topic_best_answer/  （DEMO：http://w.hihwei.com/?/api/topic/topic_best_answer/?id=4）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数 
+
+> [In] id （话题ID）
+
+> [Out] int (问题ID)
+
+> [Out] String(问题标题)
+
+> [Out] int (回答者uid)
+
+> [Out] String(回答者头像URL)
+
+> [Out] int (回答id)
+
+> [Out] String(赞的人数)
+
+> [Out] String(回复内容)
+
 ############################################################
 
 
