@@ -622,6 +622,46 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [Out] String(回复内容)
 
+## 精华详情，点击精华列表的item进入的界面
+
+> URL： api/question/best_answer_detail/  （DEMO：http://w.hihwei.com/?/api/question/best_answer_detail/?id=2）
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+> [In] id (问题ID)
+
+> [Out] int (问题ID)
+
+> [Out] String(问题标题)
+
+> [Out] uid (回答者头像uid)
+
+> [Out] String(回答者头像url)
+
+> [Out] String(回答者姓名)
+
+> [Out] String(回答者一句话介绍)
+
+> [Out] int (回答ID)
+
+> [Out] String(该回答赞的人数)
+
+> [Out] String(回答详情)
+
+> [Out] Int(评论的个数)
+
+> [Out] 当前用户是否已感谢 (如果已感谢,has_thanks为1，否则为0)
+
+> edit by huangchen
+
 ############################################################
 
 
