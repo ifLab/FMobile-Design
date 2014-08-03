@@ -238,15 +238,23 @@
 
 > 实现对一个话题的操作
 
-#### 精华列表
+#### 精华列表 (已完成)
 
-> [Out] String(问题)
+> [In] id （话题ID）
 
-> [Out] String(图片url)
+> [Out] int (问题ID)
+
+> [Out] String(问题标题)
+
+> [Out] int (回答者uid)
+
+> [Out] String(回答者头像URL)
+
+> [Out] int (回答id)
 
 > [Out] String(赞的人数)
 
-> [Out] String(回复预览)
+> [Out] String(回复内容)
 
 #### 话题取消关注操作 （已完成）
 
@@ -254,7 +262,7 @@
 
 > [In] String(topic_id)
 
-#### 热门话题列表，与我关注的话题列表返回字段相同
+#### 热门话题列表，与我关注的话题列表返回字段相同 （已完成）
 
 > [Out] String(图片url)
 
@@ -264,15 +272,23 @@
 
 > edit by huangchen
 
-#### 精华详情，点击精华列表的item进入的界面
+#### 精华详情，点击精华列表的item进入的界面 (已完成)
 
-> [Out] String(问题)
+> [In] id (问题ID)
 
-> [Out] String(回答者url)
+> [Out] int (问题ID)
+
+> [Out] String(问题标题)
+
+> [Out] uid (回答者头像uid)
+
+> [Out] String(回答者头像url)
 
 > [Out] String(回答者姓名)
 
 > [Out] String(回答者一句话介绍)
+
+> [Out] int (回答ID)
 
 > [Out] String(该回答赞的人数)
 
@@ -280,11 +296,11 @@
 
 > [Out] Int(评论的个数)
 
-> [Out] 是否已感谢
+> [Out] 当前用户是否已感谢
 
 > edit by huangchen
 
-#### 实现对问题的关注
+#### 实现对问题的关注 （已完成）
 
 > 可以用户获取是否关注了这个问题
 
