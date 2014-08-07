@@ -294,6 +294,8 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [Out] String(问题正文)
 
+> [Out] Int (当前登录用户是否关注了该问题,如果已关注，则has_focus为1，否则为0) 【8.7.新增】
+
 > [Out] Int(问题关注数)
 
 > [Out] 回答列表(
@@ -303,6 +305,12 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > > Int(用户ID)
 
 > > String(用户姓名)
+
+> > String(用户头像) 【8.7.新增】
+
+> > String(一句话签名) 【8.7.新增】
+
+> > Int (当前登录用户是否赞或踩了该回答,如果已赞，则vote_value为1，如果已踩，vote_value为-1，否则为0) 【8.7.新增】
 
 > > Int(赞同的人数)
 
