@@ -369,6 +369,30 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [Out] Date(日期) 
 
+
+## 回答的详细 （庞荣版,制作中。。。）
+
+> URL：answer_detail.php   （  DEMO: http://w.hihwei.com/api/answer_detail.php?id=4  ）
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+> [In] id 回答编号
+
+> [Out] Int(用户ID)
+
+> [Out] Int(赞同数)
+
+> [Out] String(正文)
+
+> [Out] Int(评论数)
+
+> [Out] Date(日期) 
+
+
 ## 回答的评论列表
 
 > URL：answer_comment.php  （  DEMO: http://w.hihwei.com/api/answer_comment.php?id=4  ）
@@ -394,6 +418,43 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > 图释：
 
 ![image](https://raw.githubusercontent.com/ifLab/FMobile-Design/master/api/at_user.png)
+
+
+## 发布回答评论 && 对回答评论的回复 
+
+> URL： question/ajax/save_answer_comment/  （http://w.hihwei.com/?/question/ajax/save_answer_comment/?answer_id=7）
+
+> HTTP请求方式
+
+- GET & POST
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- [GET] answer_id (回答ID) 
+
+- [POST] message (评论内容)  【 如果对回答评论进行回复，此字段值格式是：@Hwei:你的回复很赞，跟Web版是一样的 】
+
+## 对回答踩和赞的操作 
+
+> URL： question/ajax/answer_vote/  （http://w.hihwei.com/?/question/ajax/answer_vote/）
+
+> HTTP请求方式
+
+- POST
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- answer_id (回答ID) 
+
+- value ( 如果是赞和取消赞，此参数值为：1，如果是踩和取消踩，此参数值为-1）
 
 
 ## 文章的详细 
