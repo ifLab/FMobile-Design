@@ -322,14 +322,14 @@
 
 #### 对回答踩和赞的操作
 
-#### 发现列表中添加文章的id
+#### 发现列表中添加文章的id   http://w.hihwei.com/?/api/explore/
 
-#### 文章详细的添加
+#### 文章详细的添加  http://w.hihwei.com/?/api/article/article/?id=2
 
 > 请在文章详细中添加文章作者的信息（作者id，作者头像url，作者的用户名，作者的一句话签名）
 
 > 获取用户对当前的文章是否赞过
 
-#### 文章的评论列表
+#### 文章的评论列表  http://w.hihwei.com/?/api/article/comment/?id=2
 
 > 添加评论是否被用户赞过
