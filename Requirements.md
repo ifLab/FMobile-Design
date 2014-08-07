@@ -20,6 +20,29 @@
 
 ### 未实现过非安全、稳定、防火防盗版本，需要实现的接口
 
+###首页
+- In :uid /cookie（本机用户首页数据）
+- In :page（所要获取的页数
+
+- Out :avatarUrl
+- Out :userName
+- Out :userUid
+
+- Out :action
+- Out :title
+- Out :titleUrl/titleUid
+
+- Out : Content 最佳回答正文
+- Out :uid 最佳回答Uid
+- Out :starCount 最佳回答的点赞数
+
+- Out :type 类型（见下图
+- Out : currentPageCount 现在所在页数
+- Out :totalPageCount总的页数
+
+更多详情见【图】![Alt text](https://github.com/ifLab/WeCenterMobile-Android/blob/timor/xxx.png)
+
+
 #### 问题详细 （已完成）
 
 > [In] Int(问题ID)
