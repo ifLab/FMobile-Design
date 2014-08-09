@@ -294,8 +294,6 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [Out] String(问题正文)
 
-> [Out] Int (当前登录用户是否关注了该问题,如果已关注，则has_focus为1，否则为0) 【8.7.新增】
-
 > [Out] Int(问题关注数)
 
 > [Out] 回答列表(
@@ -305,12 +303,6 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > > Int(用户ID)
 
 > > String(用户姓名)
-
-> > String(用户头像) 【8.7.新增】
-
-> > String(一句话签名) 【8.7.新增】
-
-> > Int (当前登录用户是否赞或踩了该回答,如果已赞，则vote_value为1，如果已踩，vote_value为-1，否则为0) 【8.7.新增】
 
 > > Int(赞同的人数)
 
@@ -370,9 +362,9 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > [Out] Date(日期) 
 
 
-## 回答的详细 （庞荣版,制作中。。。）
+## 回答的详细 （庞荣版）
 
-> URL：answer_detail.php   （  DEMO: http://w.hihwei.com/api/answer_detail.php?id=4  ）
+> URL：api/question/answer_detail/   （  DEMO: w.hihwei.com/?/api/question/answer_detail/?id=4  ）
 
 > HTTP请求方式
 
@@ -382,7 +374,17 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > [In] id 回答编号
 
+> [Out] Int(回答ID)
+
+> [Out] Int(所属问题ID)
+
 > [Out] Int(用户ID)
+
+> [Out] String(用户名)
+
+> [Out] String(用户签名)
+
+> [Out] String(用户头像)
 
 > [Out] Int(赞同数)
 
@@ -391,6 +393,8 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > [Out] Int(评论数)
 
 > [Out] Date(日期) 
+
+> [Out] Int(当前登录用户是否赞或踩了该回答,如果已赞，则vote_value为1，如果已踩，vote_value为-1，否则为0) 
 
 
 ## 回答的评论列表
@@ -475,9 +479,20 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
 > > 点赞的人数
 
+> > [Out] Int(用户ID)
+
+> > [Out] String(用户名)
+
+> > [Out] String(用户签名)
+
+> > [Out] String(用户头像)
+
+> > [Out] Int(当前登录用户是否赞或踩了该回答,如果已赞，则vote_value为1，如果已踩，vote_value为-1，否则为0) 
+
 > > 相关的话题
 
 > )
+
 
 ## 文章的评论列表
 
@@ -506,6 +521,8 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 > > 发布的时间
 
 > > 点赞人数
+
+> > [Out] Int(当前登录用户是否赞评论,如果已赞，则vote_value为1，否则为0) 
 
 > > 评论＠的人信息（如果有则有）
 
