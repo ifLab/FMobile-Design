@@ -35,6 +35,9 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Publish.md
 
 https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
+##首页
+https://github.com/ifLab/FMobile-Design/blob/master/API_Home.md
+
 
 #以下列表接口一般都接收三个参数：uid(必须)，page(可选)，per_page(可选) 不明白的在讨论组里交流，炎炎夏日，写代码不易
 
