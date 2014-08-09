@@ -1,6 +1,6 @@
 ## 首页接口
 
--> associate_action 代码说明
+##### associate_action 代码说明
 
 + 105 关注问题
 + 101 发布问题
