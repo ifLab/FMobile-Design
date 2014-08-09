@@ -2,12 +2,12 @@
 
 ##### associate_action 代码说明
 
-+ 101 发布问题 history_id,associate_action,add_time,uid,user_info,associate_id,question_info
-+ 105 关注问题 history_id,associate_action,add_time,uid,user_info,associate_id,question_info
-+ 201 回答问题 history_id,associate_action,add_time,uid,user_info,associate_id,answer_info,question_info
-+ 204 赞同问题回答 history_id,associate_action,add_time,uid,user_info,associate_id,answer_info,question_info
-+ 501 发布文章 history_id,associate_action,add_time,uid,user_info,associate_id,article_info
-+ 502 赞同文章 history_id,associate_action,add_time,uid,user_info,associate_id,article_info
++ 101 发布问题 (history_id,associate_action,add_time,uid,user_info,associate_id,question_info)
++ 105 关注问题 (history_id,associate_action,add_time,uid,user_info,associate_id,question_info)
++ 201 回答问题 (history_id,associate_action,add_time,uid,user_info,associate_id,answer_info,question_info)
++ 204 赞同问题回答 (history_id,associate_action,add_time,uid,user_info,associate_id,answer_info,question_info)
++ 501 发布文章 (history_id,associate_action,add_time,uid,user_info,associate_id,article_info)
++ 502 赞同文章 (history_id,associate_action,add_time,uid,user_info,associate_id,article_info)
 
 
 ##首页
@@ -38,7 +38,7 @@
 - - history_id 如果要缓存，这个字段有点用的
 - - associate_action  上面有解释的 
 - - add_time 动作发生的时间
-- - associate_id  （要么是文章id，要么是问题id，要么是回答id）
+- - associate_id  （如果associate_action是1打头的，则是问题id;2打头，则是回答id,5打头则是文章id）
 
 
 
