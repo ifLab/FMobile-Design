@@ -29,7 +29,7 @@
 
 > 返回的信息：
 
-- 这个请直接看 http://w.hihwei.com/?/api/home/ 这个页面（装个jsonview一目了然）
+- 这个请直接看 http://w.hihwei.com/?/api/home/ 这个页面（装个postman一目了然）
 
 - NOTE：特别提醒下，这个接口返回的total_rows是当前页的信息总条数，那，你如何知道信息全部加载完了呢，从第一页开始，当你加载第n页的时候，发现它返回的total_rows是0。恭喜你，已全部加载完成！
 
