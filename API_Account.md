@@ -104,6 +104,8 @@
 
 > [Out] String(用户名)
 
+> [Out] String(签名)
+
 > [Out] Int(我的话题数)
 
 > [Out] Int(我关注的人数)
