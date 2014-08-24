@@ -307,6 +307,10 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Home.md
 
 > > String(用户姓名)
 
+> > String(用户头像)
+
+> > String(用户一句话签名)
+
 > > Int(赞同的人数)
 
 > > String(回答预览)
