@@ -1,10 +1,8 @@
 #发现相关接口
 
-http://w.hihwei.com/?/
-
 ##发现（最新，推荐，热门[30天，7天，当天]，等待回复）
 
-> URL：api/explore/   （ http://w.hihwei.com/?/api/explore/ ）
+> URL：api/explore/   （ http://www.example.com/?/api/explore/ ）
 
 > HTTP请求方式
 
