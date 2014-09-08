@@ -12,7 +12,7 @@
 
 ##首页
 
-> URL：api/explore/   （ http://w.hihwei.com/?/api/home/ ）
+> URL：api/explore/   （ http://www.example.com/?/api/home/ ）
 
 > HTTP请求方式
 
