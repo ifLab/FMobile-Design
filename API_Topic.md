@@ -40,7 +40,7 @@
 
 - NOTE：不需要传其他参数，如果当前用户已经关注该话题，会取消关注，反之则关注
 
-## 关注或取消关注某个话题操作
+## 话题关注，取消关注操作
 
 > URL：focus_topic.php （http://www.example.com/api/focus_topic.php）
 
