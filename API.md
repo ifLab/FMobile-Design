@@ -30,11 +30,11 @@ https://github.com/ifLab/FMobile-Design/blob/master/API_Account.md
 
 https://github.com/ifLab/FMobile-Design/blob/master/API_Publish.md
 
-##发现相关接口
+##发现接口
 
 https://github.com/ifLab/FMobile-Design/blob/master/API_Explore.md
 
-##首页
+##首页接口
 https://github.com/ifLab/FMobile-Design/blob/master/API_Home.md
 
 
