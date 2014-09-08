@@ -1,10 +1,6 @@
-#发布相关接口
-
-> 基于： http://w.hihwei.com/?/
-
 ##上传附件
 
-> URL：api/publish/attach_upload/
+> URL：api/publish/attach_upload/  (http://www.example.com/?/api/publish/attach_upload/)
 
 > HTTP请求方式
 
@@ -42,7 +38,7 @@
 
 ## 发布问题
 
-> URL：api/publish/publish_question/
+> URL：api/publish/publish_question/  (http://www.example.com/?/api/publish/publish_question/)
 
 > HTTP请求方式
 
@@ -80,7 +76,7 @@
 
 ## 回答问题
 
-> URL：api/publish/save_answer/
+> URL：api/publish/save_answer/  (http://www.example.com/?/api/publish/save_answer/)
 
 > HTTP请求方式
 
