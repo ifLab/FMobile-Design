@@ -59,7 +59,7 @@
 
 ##用户头像修改
 
-> URL：api/account/avatar_upload/
+> URL：api/account/avatar_upload/ （http://www.example.com/?/api/account/avatar_upload/）
 
 > HTTP请求方式
 
@@ -86,7 +86,7 @@
 
 ## 获取用户信息
 
-> URL：api/account/get_userinfo/ （http://www.example.com/?/api/account/get_userinfo/?uid=10）
+> URL：api/account/get_userinfo/ （DEMO:http://www.example.com/?/api/account/get_userinfo/?uid=10）
 
 > HTTP请求方式
 
