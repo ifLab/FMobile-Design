@@ -2,7 +2,7 @@
 
 ##用户注册
 
-> URL：api/account/register_process/
+> URL：api/account/register_process/  (http://www.example.com/?/api/account/register_process/)
 
 > HTTP请求方式
 
@@ -33,7 +33,7 @@
 ##用户登录
 
 
-> URL：api/account/login_process/
+> URL：api/account/login_process/  (http://www.example.com/?/api/account/login_process/)
 
 > HTTP请求方式
 
@@ -84,9 +84,9 @@
 - 上传失败, 请与管理员联系
 - 。。。错误原因太多，没法一一解释，此处省略百万字（By Hwei）
 
-## 获取用户信息 (谢泽源版)
+## 获取用户信息
 
-> URL：api/account/get_userinfo/ （DEMO: http://w.hihwei.com/?/api/account/get_userinfo/?uid=10）
+> URL：api/account/get_userinfo/ （http://www.example.com/?/api/account/get_userinfo/?uid=10）
 
 > HTTP请求方式
 
@@ -122,7 +122,7 @@
 
 ## 获取用户信息
 
-> URL：user.php （http://w.hihwei.com/api/user.php）
+> URL：user.php （http://www.example.com/api/user.php）
 
 > HTTP请求方式
 
@@ -150,7 +150,7 @@
 
 ##用于展示用户信息  
 
-> URL：profile.php （http://w.hihwei.com/api/profile.php）
+> URL：profile.php （http://www.example.com/api/profile.php）
 
 > HTTP请求方式
 
@@ -172,7 +172,7 @@
 
 ##用于修改用户信息  （除uid和user_name外，其他为可选）
 
-> URL：profile_setting.php （http://w.hihwei.com/api/profile_setting.php）
+> URL：profile_setting.php （http://www.example.com/api/profile_setting.php）
 
 > HTTP请求方式
 
@@ -196,7 +196,7 @@
 
 ##获取用户uid
 
-> URL：api/account/get_uid/
+> URL：api/account/get_uid/  (http://www.example.com/?/api/account/get_uid/)
 
 > HTTP请求方式
 
