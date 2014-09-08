@@ -4,7 +4,7 @@
 
 ##获取我的文章列表
 
-> URL：my_article.php （http://w.hihwei.com/api/my_article.php）
+> URL：my_article.php （http://www.example.com/api/my_article.php）
 
 > HTTP请求方式
 
@@ -34,7 +34,7 @@
 
 ##获取我的提问列表
 
-> URL：my_question.php （http://w.hihwei.com/api/my_question.php）
+> URL：my_question.php （http://www.example.com/api/my_question.php）
 
 > HTTP请求方式
 
@@ -64,7 +64,7 @@
 
 ## 获取我的关注问题列表
 
-> URL：my_focus_question.php （http://w.hihwei.com/api/my_focus_question.php）
+> URL：my_focus_question.php （http://www.example.com/api/my_focus_question.php）
 
 > HTTP请求方式
 
@@ -92,7 +92,7 @@
 
 ## 获取我的回复列表
 
-> URL：my_answer.php （http://w.hihwei.com/api/my_answer.php）
+> URL：my_answer.php （http://www.example.com/api/my_answer.php）
 
 > HTTP请求方式
 
@@ -122,7 +122,7 @@
 
 ## 我关注的用户列表
 
-> URL：my_focus_user.php （http://w.hihwei.com/api/my_focus_user.php）
+> URL：my_focus_user.php （http://www.example.com/api/my_focus_user.php）
 
 > HTTP请求方式
 
@@ -144,7 +144,7 @@
 
 ## 关注我的用户列表
 
-> URL：my_fans_user.php （http://w.hihwei.com/api/my_fans_user.php）
+> URL：my_fans_user.php （http://www.example.com/api/my_fans_user.php）
 
 > HTTP请求方式
 
@@ -162,7 +162,7 @@
 
 用于展示／修改个人从属行业等信息  （默认全部返回，可以加per_page和page参数）
 
-> URL：job_list.php （http://w.hihwei.com/api/job_list.php）
+> URL：job_list.php （http://www.example.com/api/job_list.php）
 
 > HTTP请求方式
 
@@ -183,7 +183,7 @@
 
 ## 我关注的话题列表
 
-> URL：my_focus_topic.php （http://w.hihwei.com/api/my_focus_topic.php）
+> URL：my_focus_topic.php （http://www.example.com/api/my_focus_topic.php）
 
 > HTTP请求方式
 
@@ -195,7 +195,7 @@
 
 > [In] Int(页数)
 
-> [Out] String(图片url) （话题图片路径：http://w.hihwei.com/uploads/topic/）
+> [Out] String(图片url) （话题图片路径：http://www.example.com/uploads/topic/）
 
 > [Out] String(标题)
 
