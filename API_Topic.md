@@ -142,3 +142,26 @@
 > [Out] Int(评论的个数)
 
 > [Out] 当前用户是否已感谢 (如果已感谢,has_thanks为1，否则为0)
+
+##单个话题信息 （不建议使用）
+
+> URL：api/topic/topic/
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数：
+
+- id (string) [可以是topic的id或title]
+> 返回结果：
+
+- topic_info 话题信息
+
+> 可能返回的错误原因：
+
+- 话题不存在
