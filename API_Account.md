@@ -213,3 +213,21 @@
 > 可能返回的错误原因：
 
 - 禁止访问
+
+## 用户关注，取消关注操作
+
+> URL：follow/ajax/follow_people/  （DEMO：http://w.hihwei.com/?/follow/ajax/follow_people/?uid=5）
+
+> HTTP请求方式
+
+- GET
+
+> Header
+
+- COOKIE
+
+> 请求参数 
+
+- uid (用户ID)
+
+- NOTE：不需要传其他参数，如果当前用户已经关注该用户，会取消关注，反之则关注
