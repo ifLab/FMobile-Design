@@ -13,6 +13,7 @@
 - per_page (int)  可选，默认10
 - page (int)  可选，默认1
 - day (int)  可选，默认30
+- category_id  必选 分类
 - is_recommend (int)  可选，有1和0两种值，默认0  [如果你是要返回“推荐”栏目的数据，这个参数值设为1，sort_type可以不设]
 - sort_type （string） 可选，有new，hot，unresponsive三种值，默认new    new：最新  hot：热门  unresponsive：等待回复
 
