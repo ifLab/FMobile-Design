@@ -1,5 +1,7 @@
 #用户账号相关接口
 
+该给你看。。。。。。。。。。。。。。。
+
 ##用户注册
 
 > URL：api/account/register_process/  (http://www.example.com/?/api/account/register_process/)
