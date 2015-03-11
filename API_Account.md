@@ -86,42 +86,6 @@
 
 ## 获取用户信息
 
-> URL：api/account/get_userinfo/ （DEMO:http://www.example.com/?/api/account/get_userinfo/?uid=10）
-
-> HTTP请求方式
-
-- GET
-
-> Header
-
-- COOKIE
-
-> 请求参数：
-
-> [In] Int(UID)
-
-> [Out] String(用户头像URI)
-
-> [Out] String(用户名)
-
-> [Out] String(签名)
-
-> [Out] Int(我的话题数)
-
-> [Out] Int(我关注的人数)
-
-> [Out] Int(关注我的人数)
-
-> [Out] Int(赞同我的次数)
-
-> [Out] Int(感谢我的次数)
-
-> [Out] Int(答案被收藏次数)
-
-> [Out] Int(当前登录用户是否关注了该用户,如果已关注，则has_focus为1，否则为0)
-
-## 获取用户信息
-
 > URL：user.php （http://www.example.com/api/user.php）
 
 > HTTP请求方式
